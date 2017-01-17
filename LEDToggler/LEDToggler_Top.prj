@@ -1,0 +1,4 @@
+verilog work "Src/FreqDivider.v"
+verilog work "Src/ButtonDriver.v"
+verilog work "Src/ButtonDebouncer.v"
+verilog work "Src/LEDToggler_Top.v"

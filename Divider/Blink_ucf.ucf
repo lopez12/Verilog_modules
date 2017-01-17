@@ -1,0 +1,4 @@
+net "iClk" loc = B8;
+net "Hertz1" loc = M5;
+net "Hertz2" loc = M11;
+net "HertzMedio" loc = P7;

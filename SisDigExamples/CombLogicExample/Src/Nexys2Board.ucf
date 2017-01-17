@@ -1,0 +1,45 @@
+# Pin assignment for DispCtl 
+# Connected to Nexys 2 onBoard 7seg display 
+ NET "seg<0>" LOC= "L18"; # Bank = 1
+ NET "seg<1>" LOC= "F18"; # Bank = 1
+ NET "seg<2>" LOC= "D17"; # Bank = 1
+ NET "seg<3>" LOC= "D16"; # Bank = 1
+ NET "seg<4>" LOC= "G14"; # Bank = 1
+ NET "seg<5>" LOC= "J17"; # Bank = 1
+ NET "seg<6>" LOC= "H14"; # Bank = 1
+ NET "dp" LOC= "C17"; # Bank = 1
+
+ NET "an<0>" LOC= "F17"; # Bank = 1
+ NET "an<1>" LOC= "H17"; # Bank = 1
+ NET "an<2>" LOC= "C18"; # Bank = 1
+ NET "an<3>" LOC= "F15"; # Bank = 1
+
+# Pin assignment for Leds 
+# Connected to Nexys 2 
+ NET "Led<0>" LOC= "J14"; # Bank = 1
+ NET "Led<1>" LOC= "J15"; # Bank = 1
+ NET "Led<2>" LOC= "K15"; # Bank = 1
+ NET "Led<3>" LOC= "K14"; # Bank = 1
+ NET "Led<4>" LOC= "E17"; # Bank = 1
+ NET "Led<5>" LOC= "P15"; # Bank = 1
+ NET "Led<6>" LOC= "F4"; # Bank = 3
+ NET "Led<7>" LOC= "R4"; # Bank = 3
+
+# Pin assignment for Switches 
+# Connected to Nexys 2 
+ NET "sw<0>" LOC= "G18"; # Bank = 1
+ NET "sw<1>" LOC= "H18"; # Bank = 1
+ NET "sw<2>" LOC= "K18"; # Bank = 1
+ NET "sw<3>" LOC= "K17"; # Bank = 1
+ NET "sw<4>" LOC= "L14"; # Bank = 1
+ NET "sw<5>" LOC= "L13"; # Bank = 1
+ NET "sw<6>" LOC= "N17"; # Bank = 1
+ NET "sw<7>" LOC= "R17"; # Bank = 1
+
+# Pin assignment for Buttons 
+# Connected to Nexys 2 
+
+ NET "btn<0>" LOC= "B18"; # Bank = 1
+ NET "btn<1>" LOC= "D18"; # Bank = 1
+ NET "btn<2>" LOC= "E18"; # Bank = 1
+ NET "btn<3>" LOC= "H13"; # Bank = 1

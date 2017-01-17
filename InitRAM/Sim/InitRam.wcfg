@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/CLBQWork/VerilogClass/InitRAM/InitRAM_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="InitRAM_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <wvobject fp_name="/InitRAM_TB/an" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/Led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/btn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">btn</obj_property>
+      <obj_property name="ObjectShortName">btn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/uut/Counter1/Count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/uut/Counter1/Count_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Count_d[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Count_d[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/InitRAM_TB/uut/Counter1/Count_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Count_q[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Count_q[4:0]</obj_property>
+   </wvobject>
+</wave_config>

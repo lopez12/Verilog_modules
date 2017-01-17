@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+par -w -intstyle ise -ol high -mt off mDivider_map.ncd mDivider.ncd mDivider.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mDivider.twx mDivider.ncd -o mDivider.twr mDivider.pcf 
+bitgen -intstyle ise -f mDivider.ut mDivider.ncd 
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Blink_ucf.ucf -p xc3s100e-cp132-5 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Blink_ucf.ucf -p xc3s100e-cp132-5 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+par -w -intstyle ise -ol high -t 1 mDivider_map.ncd mDivider.ncd mDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mDivider.twx mDivider.ncd -o mDivider.twr mDivider.pcf -ucf Blink_ucf.ucf 
+bitgen -intstyle ise -f mDivider.ut mDivider.ncd 
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Blink_ucf.ucf -p xc3s100e-cp132-5 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+par -w -intstyle ise -ol high -t 1 mDivider_map.ncd mDivider.ncd mDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mDivider.twx mDivider.ncd -o mDivider.twr mDivider.pcf -ucf Blink_ucf.ucf 
+bitgen -intstyle ise -f mDivider.ut mDivider.ncd 
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Blink_ucf.ucf -p xc3s100e-cp132-5 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+par -w -intstyle ise -ol high -t 1 mDivider_map.ncd mDivider.ncd mDivider.pcf 
+bitgen -intstyle ise -f mDivider.ut mDivider.ncd 
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Blink_ucf.ucf -p xc3s100e-cp132-5 "mDivider.ngc" mDivider.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mDivider_map.ncd mDivider.ngd mDivider.pcf 
+par -w -intstyle ise -ol high -t 1 mDivider_map.ncd mDivider.ncd mDivider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mDivider.twx mDivider.ncd -o mDivider.twr mDivider.pcf -ucf Blink_ucf.ucf 
+bitgen -intstyle ise -f mDivider.ut mDivider.ncd 
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.xst" -ofn "C:/Users/Arturo/Desktop/Sistemas Digitales/Divider/mDivider.syr" 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/.Xilinx/Memoria/ROM_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ROM" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/ROM/iclk" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">iclk</obj_property>
+      <obj_property name="ObjectShortName">iclk</obj_property>
+      <obj_property name="label">iclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ROM/ovdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ovdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ovdata[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ROM/ivadress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ivadress[10:0]</obj_property>
+      <obj_property name="ObjectShortName">ivadress[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ROM/rvcont" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rvcont[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rvcont[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

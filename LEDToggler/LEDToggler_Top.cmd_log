@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Arturo/Desktop/LEDToggler/LEDToggler_Top.xst" -ofn "C:/Users/Arturo/Desktop/LEDToggler/LEDToggler_Top.syr" 

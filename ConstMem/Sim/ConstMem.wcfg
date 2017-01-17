@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Projects/_Arandas/ConstMem/ConstMemTB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ConstMemTB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/ConstMemTB/ovData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ovData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ovData[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ConstMemTB/iClk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iClk</obj_property>
+      <obj_property name="ObjectShortName">iClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ConstMemTB/iRst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iRst</obj_property>
+      <obj_property name="ObjectShortName">iRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ConstMemTB/ivAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ivAddress[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ivAddress[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
